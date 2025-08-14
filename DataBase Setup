@@ -1,0 +1,9 @@
+CREATE DATABASE staffdb;
+USE staffdb;
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    salary DOUBLE
+    name VARCHAR(200),
+    salary DOUBLE
+);
